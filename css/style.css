@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.content
+{
+  margin-left: 4px;
+  margin-top: 6px;
+  width: 641px;
+  height: 87px;
+  font-family: Sans;
+}
+.menu
+{
+  background-color: #cae2e2;
+  margin-bottom: 1px;
+  height: 25px;
+}
+ul.hr
+{
+  padding-top: 3px;
+  padding-left: 6px;
+}
+ul.hr li 
+{
+  display: inline; 
+  font-size: 11.5px;
+  padding: 9px 4px 5px 6px;
+}
+a
+{
+  text-decoration: none;
+  color: #197b7b;
+}
+li.active 
+{
+  background-color: #197b7b;
+}
+li.active a
+{
+  color: white;
+}
+.sorting
+{
+  padding: 3px 0 6px 11px;
+  border-top: 1px solid #7ececf;
+  background-color: #c9d1d3;
+  height: 16px;
+}
+
+ul.sortList
+{
+  display: inline; 
+  list-style: none;
+}
+ul.sortList li
+{
+  padding-right: 11px;
+  padding-top: 3px;
+  font-size: 10px;
+  float: right;
+  list-style-position: inside;
+  background: url("../image/grey.png") no-repeat 0 6px;
+  padding-left: 12px;
+}
+ul.sortList li.activeColor
+{
+  background: url("../image/green.png") no-repeat 0 6px;
+  color: #197b7b;
+}
+ul.sortList li.activeColor a
+{
+  color: #197b7b;
+}
+ul.sortList li a
+{
+  color: #68757b;
+  text-align: center;
+}
+.search
+{
+  background-color: #c9d1d3;
+}
+.search > input
+{
+  height: 23px;
+  width: 535px;
+  margin-left: 11px;
+  margin-bottom: 6px;
+  outline: none;
+  padding-left: 5px;
+  padding-right: 12px;
+
+}
+.search > button
+{
+  background-color: #162e32;
+  color: #eaebeb;
+  width: 68px;
+  height: 28px;
+  padding-left: 0px;
+  margin-left: -11px;
+
+}

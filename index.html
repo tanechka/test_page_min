@@ -4,47 +4,55 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>Тестовое задание</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
+<!--[if lt IE 9]>
+ <style>
+  label.switch {width: auto; height: auto; }
+  span.switch { display: none !important; }
+  input.switch{ display: inline-block;}
+ </style>
+<![endif]-->
  </head>
  <body >
-  <div class="content">
+  
+  <div class="content"> 
     <div class="menu">
       <ul class="hr">
-        <li>
-          <a href="">Мои материалы</a>
+        <li> 
+          <a href="">Мои  материалы</a>
         </li>
-        <li class="active">
+        <li>
           <a href="">Избранное</a>
         </li>
-        <li>
+        <li class="list">
           <a href="">Рекомендуемые</a>
         </li>
-        <li>
+        <li class="list">
           <a href="">На продажу</a>
         </li>
         <li>
           <a href="">Каталог</a>
         </li>
-        <li>
+        <li class="list">
           <a href="">Поиск</a>
         </li>
       </ul>
     </div>
     <div class="sorting">
-         <input type="checkbox" checked>
+		<label class="switch"><input class="switch" type="checkbox" value="1" name="k" checked ><span class="switch"></span></label>
          <img src="image/ink.png" alt="ink">
-         <input type="checkbox"  checked>
+         <label class="switch"><input class="switch" type="checkbox" value="1" name="l" checked ><span class="switch"></span></label>
          <img src="image/camera.png" alt="camera">
-         <input type="checkbox">
+         <label class="switch" ><input type="checkbox" value="1" name="n" class="switch"><span class="switch" ></span></label>
          <img src="image/roller.png" alt="roller">
-         <input type="checkbox">
+         <label class="switch" ><input type="checkbox" value="1" name="o" class="switch" ><span class="switch"></span></label>
          <img src="image/horn.png" alt="horn">
-         <input type="checkbox" checked>
+         <label class="switch"><input type="checkbox" value="1" name="m" checked class="switch" ><span class="switch"></span></label>
          <img src="image/book.png" alt="book">
       <ul class="sortList">
           <li>
             <a href="">по популярности</a>
           </li>
-          <li  class="activeColor">
+          <li>
             <a href="">по дате публикации</a>
           </li>
       </ul>

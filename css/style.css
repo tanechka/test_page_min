@@ -1,4 +1,5 @@
-* {
+* 
+{
   margin: 0;
   padding: 0;
 }
@@ -35,8 +36,8 @@ ul.hr li
 
 ul.hr li.list
 {	
-	 font-size: 14px;
-	 padding-left: 7px;
+	font-size: 14px;
+	padding-left: 7px;
 }
 ul.hr li:nth-child(4)
 {
@@ -62,18 +63,18 @@ ul.hr li:nth-child(2)
 }
 label
 {
- width: 13px; /* Ширина рисунка */
- height: 13px; /* Высота рисунка */
- display: inline-block; /* Блочный элемент */
- position: relative; /* Относительное позиционирование */
+  width: 13px; 
+  height: 13px; 
+  display: inline-block; 
+  position: relative;
 }
 input[type="checkbox"] + span 
 {
-	 position: absolute; /* Абсолютное позиционирование */
-	 left: 0; top: 0;
-	 width: 100%; height: 100%;
-	 background: url("../image/sprite.png") no-repeat; /* Фоновый рисунок */
-	 cursor: pointer; /* Курсор в виде руки */
+	position: absolute; 
+	left: 0; top: 0;
+	width: 100%; height: 100%;
+	background: url("../image/sprite.png") no-repeat; 
+	cursor: pointer; 
 }
 	input[type="checkbox"]:checked + span  	{
 	background-position: 0 -13px;
@@ -82,7 +83,6 @@ input[type="checkbox"] + span
 {
 	display:none;
 }
-
 a
 {
   text-decoration: none;
@@ -127,11 +127,10 @@ ul.sortList li:nth-child(2)
 ul.sortList li:hover 
 {
   background: url("../image/green.png") no-repeat 0 6px;
-  
- }
+}
 ul.sortList li:hover  a
 {
-color: rgb(25, 123, 123) ;
+  color: rgb(25, 123, 123) ;
 }
 ul.sortList li a
 {
@@ -144,14 +143,14 @@ ul.sortList li a
 }
 .search > input
 {
-    height: 23px;
-    width: 538px;
-    margin-left: 11px;
-    margin-bottom: 7px;
-    outline: none;
-    padding-left: 5px;
-    padding-right: 12px;
-    padding-top: 2px;
+  height: 23px;
+  width: 538px;
+  margin-left: 11px;
+  margin-bottom: 7px;
+  outline: none;
+  padding-left: 5px;
+  padding-right: 12px;
+  padding-top: 2px;
 
 }
 .search > button
